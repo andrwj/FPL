@@ -1,0 +1,21 @@
+{
+    "name": "ntuple/fpl",
+    "description": "Functional Programming Library",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Ntuple\\FPL\\": "src/"
+        },
+        "files": ["src/Helper.php"]
+    },
+    "authors": [
+        {
+            "name": "A.J",
+            "email": "andrwj@nntuple.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
